@@ -191,14 +191,3 @@ GloriaAltoLyrics = \lyricmode {
 	_ ri --
 	a. %79 finis
 }
-
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% AltoLyrics = \lyricmode {
-%
-% }

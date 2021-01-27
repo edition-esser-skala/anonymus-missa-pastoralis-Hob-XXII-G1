@@ -161,10 +161,3 @@ GloriaViolinoI = {
 		f4 r r2\fermata \bar "||"
 	}
 }
-
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }

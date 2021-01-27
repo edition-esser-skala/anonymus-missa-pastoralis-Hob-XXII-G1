@@ -280,14 +280,3 @@ GloriaTenoreLyrics = \lyricmode {
 	_
 	tris. %104 finis
 }
-
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-%
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }

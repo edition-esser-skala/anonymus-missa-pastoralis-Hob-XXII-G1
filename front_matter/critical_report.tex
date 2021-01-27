@@ -184,16 +184,7 @@
 \newif\ifprintreport\printreportfalse
 \directlua{
 scores = {
-  ob1 = "Oboe I",
-  ob2 = "Oboe II",
-  ottoni = "Corno I, II in G",
-  vl1 = "Violino I",
-  vl2 = "Violino II",
-  vla = "Viola",
-  coro = "Coro",
-  org = "Organo",
-  b = "Bassi",
-  full_score = "Full Score"
+  full_score = "Full Score\string\\newline(Kyrie and first movement of Gloria)"
 }
 
 last_arg = arg[\string#arg]
@@ -208,9 +199,9 @@ end
 }
 
 % uncomment if the full score is in landscape format
-%\ifprintreport
-%\geometry{landscape,outer=127mm}
-%\fi
+\ifprintreport
+\geometry{landscape,outer=127mm}
+\fi
 
 \@ifundefined{lypdfname}{%
   \templatefalse
@@ -231,9 +222,9 @@ end
 \titlehead{\fancytitlehead}
 \firstname{Johann Michael}
 \lastname{Haydn}
+\namesuffix{(uncertain attribution)}
 \shortname{M. Haydn}
 \title{Missa pastoralis}
-%\shorttitle{xxx}
 \subtitle{MH deest, Hob XXII:G1\\(D-BAR Ba 120 Bü 74)}
 \instrumentation{S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor, 2 vl, vla, b, org}
 \maketitle
@@ -250,7 +241,7 @@ end
 Music engraving by LilyPond 2.22.0 (\url{http://www.lilypond.org}).\\
 Front matter typeset with Source Sans Pro and Fredericka the Great.
 
-\textit{First version, February 2021}
+\textit{First version, January 2021}
 
 \vspace*{2cm}
 
@@ -285,16 +276,19 @@ In general, this edition closely follows the manuscript. Any changes that were i
 	  & 43  & S     & 2nd half of bar in Ms: e″2. \\
 	  & 49  & ob 2  & 1st half of bar in Ms: fis″4–g″8–a″4–e″8 \\
 	\midrule
-	2 & 10 & S      & bar in MS: a′2.–b′4 \\
+	2 & 10 & S      & bar in Ms: a′2.–b′4 \\
 	  & 49 & vl 1   & 1st half of bar in Ms: c′4–r4 \\
 	\bottomrule
 \end{longtable}
 
-
 This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/haydn-m-missa-pastoralis-MH-deest}. Your help will be greatly appreciated.
 
 \bigskip
-\textit{Salzburg, February 2021\\
+
+\textit{Note by the editor:} The project has been canceled, since the initial movements indicated that the piece is of secondary quality, and Haydn is most likely not the author.
+
+\bigskip
+\textit{Salzburg, January 2021\\
 Wolfgang Esser-Skala}
 
 \cleardoublepage

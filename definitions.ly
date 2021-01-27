@@ -461,7 +461,7 @@ bc =
 	\context {
 		\Score
 		\compressEmptyMeasures
-		\override BarNumber.break-visibility = #'#(#f #t #t)
+		% \override BarNumber.break-visibility = #'#(#f #t #t)
 	}
 	\context {
 		\StaffGroup
@@ -681,7 +681,6 @@ tempoGloria = \tempoMarkup "Allegro"
 \include "notes/cor2.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
-\include "notes/vla.ly"
 \include "notes/S.ly"
 \include "notes/A.ly"
 \include "notes/T.ly"

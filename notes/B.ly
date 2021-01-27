@@ -173,14 +173,3 @@ GloriaBassoLyrics = \lyricmode {
 	_ ri --
 	a. %79 finis
 }
-
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-%
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%
-% }

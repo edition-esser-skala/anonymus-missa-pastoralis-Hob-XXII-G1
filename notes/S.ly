@@ -190,14 +190,3 @@ GloriaSopranoLyrics = \lyricmode {
 	_ ri --
 	a. %79 finis
 }
-
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-%
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%
-% }
