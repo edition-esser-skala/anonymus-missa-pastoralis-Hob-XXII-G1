@@ -55,3 +55,109 @@ KyrieViolinoII = {
 		d\pp a h c4 a8 \once \slurDashed a4.( g4) r8\fermata \bar "|." %49 finis
 	}
 }
+
+GloriaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoGloria
+		e4\p e2 \tuplet 3/2 4 { f8 e d }
+		c4 c2 d4
+		e e2 d8 c
+		\tuplet 3/2 4 { h c d } c4 r2
+		a2 g %5
+		c h
+		a4 r a r
+		a4. f'8 e c d h
+		\appoggiatura f' <g, e'>2 r
+		R1*6 %15
+		r4 \tuplet 3/2 4 { h'8[\fE d c] h d c h[ c d] }
+		\tuplet 3/2 4 { <c e> q q q[ q q] q q q q[ q q] }
+		\tuplet 3/2 4 { q[ q q] q q q q[ q q] q q q }
+		\tuplet 3/2 4 { <c f>[ q q] q q q q[ q q] q q q }
+		\tuplet 3/2 4 { q[ q q] q q q q[ q q] q q q } %20
+		\tuplet 3/2 4 { <c e>[ q q] q q q q[ q q] q q q }
+		\tuplet 3/2 4 { q[ q q] q q q q[ q q] q q q }
+		\tuplet 3/2 4 { d[ f f] f f f f[ f f] f f f }
+		\tuplet 3/2 4 { d[ f f] f f f f[ f f] f f f }
+		es4 r r2 %25
+		R1
+		<c es,>2 r
+		R1
+		q2 r
+		R1 %30
+		\tuplet 3/2 4 { h!8[\p h h] c c c h[ h h] c c c }
+		\tuplet 3/2 4 { h[ g\f g] g g g g[ g g] g g g }
+		\tuplet 3/2 4 { d'[ c h] h h h h[ h h] h h h }
+		\tuplet 3/2 4 { c[ e e,] e e e e[ e e] e e e }
+		\tuplet 3/2 4 { d'[ c h] h h h h[ h h] h h h } %35
+		\tuplet 3/2 4 { c[ e e,] e e e e[ e e] e e e }
+		\tuplet 3/2 4 { <c a'>[ q q] q q q <g d'>[ q q] q q q }
+		\tuplet 3/2 4 { <e' c'>[ q q] q q q d'[ d d] d d d }
+		\tuplet 3/2 4 { c[ e e] e e e a[ a a] h h h }
+		\tuplet 3/2 4 { e,[ e e] e e e a[ a a] d, d d } %40
+		e,4\p e2 f8 d
+		c4 c2 d4
+		e e2 d8 c
+		\tuplet 3/2 4 { h c d } c4 r2
+		a g %45
+		c h
+		a4 r r2
+		a4. f'8 e c d h
+		c2 r4 c\f
+		a4. b16 a b4 g %50
+		a8 a'\p c a r a, c a
+		r g' b g r b' g e
+		r e c g r c e g
+		r f c a r a c a
+		r f b d r g, c b %55
+		r f' c a r a c a
+		r f b d r g, c b
+		r f' c a r a c a
+		r g b g r g b g
+		r g b g r e' b g %60
+		r f' c a r a c a
+		r g\f r e r f r d
+		r e'\p c e r e c g
+		r f a c r a c a
+		r f' d a r c a c %65
+		r h! d h r g h d
+		r d, g h r h d h
+		r c, e g r e' c e,
+		r d g h r g h d
+		c4.\f e8\p e d c h %70
+		c4.\f e8\p e d c h
+		g g g g r c c c
+		r c c c r c c c
+		c c c c c c c c
+		h h h h h h h h %75
+		e,4 r r2
+		R1*3
+		r8 f\pE c' a r f a c %80
+		r f, b d r d b f
+		r f c' a r f a c
+		r d b d r d, f d
+		r h'! d h r g h d
+		r c e c r e, g e %85
+		r h' d h r g h d
+		r c e c r e, g e
+		r g b g r g g' e
+		r a, c a r f' c a
+		r g b g r g g' e %90
+		r a, c a r f' c a
+		r d f, d' r c, e g
+		r a, c f r a c a
+		r d, f d r c e g
+		r c, f a r a c a %95
+		r g b g r g b g
+		r g b g r g b g
+		f4.\f a8\p a g f e
+		f4.\f a8\p a g f e
+		f a a a r f f f %100
+		r f f f r f f f
+		a a a a a a a a
+		g g g g g g g g
+		a a, c a r a c a
+		r b d b r g b g %105
+		a4 r r2\fermata \bar "||" %106 finis
+	}
+}

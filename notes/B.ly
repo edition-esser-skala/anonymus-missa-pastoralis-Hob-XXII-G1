@@ -83,7 +83,95 @@ KyrieBassoLyrics = \lyricmode {
 	e -- lei -- son, %45
 	e -- lei -- son,
 	e -- lei -- son. %47 finis
-% Ky -- ri -- e e -- lei -- son,
+}
+
+GloriaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \major \time 2/2 \autoBeamOff \tempoGloria
+		R1*8 %8
+		\mvTr g'1\fE^\tuttiE
+		a2 h %10
+		c2. c4
+		c1
+		h2 c
+		d c4( h)
+		d2( c) %15
+		h r
+		c2. c4
+		c1
+		c
+		c %20
+		c
+		c
+		g
+		g
+		c2 c,\p %25
+		c c
+		as'\f as,\p
+		as4. as8 as2
+		fis'\f fis,\p
+		fis fis %30
+		g'4( d g d)
+		g r r2
+		g1\f
+		c4( g e) c
+		g'2 g4 g %35
+		c( g) e c
+		f2 d4 d
+		e2 h'
+		c4 a f g
+		c( a f) g %40
+		c,2 r
+		R1*34 %75
+		\mvTr g'1\fE^\tuttiE
+		a2 h
+		c2. c4
+		c2 r
+		R1*26 %105
+		R1\fermata \bar "||" %106 finis
+	}
+}
+
+GloriaBassoLyrics = \lyricmode {
+	Glo -- %9
+	_ _ %10
+	_ ri --
+	a
+	in ex --
+	cel -- sis
+	De -- %15
+	o.
+	Glo -- ri --
+	a
+	in
+	ex -- %20
+	cel --
+	sis
+	De --
+	o.
+	Et in %25
+	ter -- ra
+	pax ho --
+	mi -- ni -- bus
+	bo -- nae
+	vo -- lun -- %30
+	ta --
+	tis.
+	Lau --
+	da -- mus
+	te, be -- ne -- %35
+	di -- ci -- mus
+	te, ad -- o --
+	ra -- mus
+	te, glo -- ri -- fi --
+	ca -- mus %40
+	te.
+
+	Glo -- %76
+	_ _
+	_ ri --
+	a. %79 finis
 }
 
 % BassoNotes = {

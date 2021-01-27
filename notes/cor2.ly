@@ -38,3 +38,52 @@ KyrieCornoII = {
 		r4 r8 r4 d'8\ppE \once \slurDashed d4.( c4) r8\fermata \bar "|."
 	}
 }
+
+GloriaCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoGloria
+		e'4\pE e2 d4
+		c c2 d4
+		e e2 d4
+		c2 r
+		r g %5
+		c g
+		c g4 r
+		c2 g
+		c,\f c
+		c g' %10
+		c c
+		c r
+		g c
+		g c4 g
+		d'2 c4 d %15
+		g,2 r
+		c,4 e g e
+		c e g e
+		c1
+		c2 c %20
+		c4 e g e
+		c e g e
+		g2 g
+		g1
+		c,2 r %25
+		R1
+		c2 r
+		R1
+		c2 r
+		R1 %30
+		g'4\pE d' g, d'
+		g,2 r
+		g1\fE
+		c
+		g %35
+		c
+		R1*2
+		c2 r4 g
+		c2 r4 g %40
+		c2 r
+		R1*64 %105
+		R1\fermata \bar "||" %106 finis
+	}
+}

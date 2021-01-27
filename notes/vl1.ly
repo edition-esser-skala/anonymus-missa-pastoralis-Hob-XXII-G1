@@ -56,6 +56,112 @@ KyrieViolinoI = {
 	}
 }
 
+GloriaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \tempoGloria
+		g'4\p g2 \tuplet 3/2 4 { a8 g f }
+		e4 e2 f4
+		g g2 f8 e
+		\tuplet 3/2 4 { d e f } e4 r g8( gis)
+		a d, d2 c4 %5
+		a8 f' f2 e4
+		e8 d a' f \appoggiatura e d4 r
+		e8 d a' f e c h d
+		\appoggiatura d c2 r
+		R1*6 %15
+		r4 \tuplet 3/2 4 { g''8\fE h a g[ h a] g a h }
+		\tuplet 3/2 4 { c[ g g] g g g g[ g g] g g g }
+		\tuplet 3/2 4 { c[ g g] g g g g[ g g] g g g }
+		\tuplet 3/2 4 { c[ a a] a a a a[ a a] a a a }
+		\tuplet 3/2 4 { c[ a a] a a a a[ a a] a a a } %20
+		\tuplet 3/2 4 { c[ g g] g g g g[ g g] g g g }
+		\tuplet 3/2 4 { c[ g g] g g g g[ g g] g g g }
+		\tuplet 3/2 4 { f[ d' d] d d d d[ d d] d d d }
+		\tuplet 3/2 4 { f,[ d' d] d d d d[ d d] d d d }
+		\tuplet 3/2 4 { c[ c c] c,\p c c es[ es es] g g g } %25
+		\tuplet 3/2 4 { c[ c c] g g g es[ es es] c c c }
+		\tuplet 3/2 4 { c'[\f c c] c,\p c c es[ es es] as as as }
+		\tuplet 3/2 4 { c[ c c] as as as es[ es es] c c c }
+		\tuplet 3/2 4 { c'[\f c c] c,\p c c es[ es es] a a a }
+		\tuplet 3/2 4 { c[ c c] a a a fis[ fis fis] c c c } %30
+		\tuplet 3/2 4 { g'[ g g] fis fis fis g[ g g] fis fis fis }
+		g4 r r g,\f
+		\tuplet 3/2 4 { f'8[ e d] d d d d[ d d] d d d }
+		\tuplet 3/2 4 { e[ g c,] c c c c[ c c] c c c }
+		\tuplet 3/2 4 { f[ e d] d d d d[ d d] d d d } %35
+		\tuplet 3/2 4 { e[ g c,] c c c c[ c c] c c c }
+		\tuplet 3/2 4 { a[ f' e] d a c h[ d c] h a g }
+		\tuplet 3/2 4 { c[ g' f] e f g d[ f e] d e f }
+		\tuplet 3/2 4 { e[ c' c] c c c c[ c c] h h h }
+		\tuplet 3/2 4 { c[ c c] c c c c[ c c] h h h } %40
+		g,4\p g2 a8 f
+		e4 e2 f4
+		g2 f8 e d c
+		\tuplet 3/2 4 { d e f } e4 r g8 gis
+		a d, d2 c4 %45
+		a8 f' f2 e4
+		e8 d f d a'4 r
+		e8 d f d e c h d
+		c2-\critnote r4 c\f
+		c4. d16 c d4 e %50
+		f8 f'\pE a f r f, a f
+		r b' g e r b e g
+		r g e c r c g' b
+		r a f c r f a f
+		r d f b r b, e g %55
+		r a f c r f a f
+		r d f b r b, e g
+		r a f c r f a f
+		r b, g' e r b g' b,
+		r b' g e r g e c %60
+		r a' f c r f a f
+		r e\f r c r d r h
+		r g'\p e g r g e b
+		r a c f r f a f
+		r a f d r a' fis d %65
+		r g h! g r h, d g
+		r h, d g r g h g
+		r c, g e r g e c
+		r g' h d r h d f
+		e4.\f g8\p g f e d %70
+		e4.\f g8\p g f e d
+		e e e e r f f f
+		r g g g r a a a
+		e e e e e e e e
+		d d d d d d d d %75
+		c4 r r2
+		R1*3
+		r8 c\pE a' f r a, c es %80
+		r d f b r b f d
+		r c a' f r a, c es
+		r d b' d, r b d b
+		r d h'! g r h, d f
+		r e! g e r c e c %85
+		r d h' g r h, d f
+		r e g e r c e c
+		r c g' e r c b' g
+		r f a f r a f a,
+		r c g' e r c b' g %90
+		r f a f r a f c
+		r f, d' f, r e g b
+		r f a c r f a f
+		r f, d' f, r e g b
+		r f a c r f a f %95
+		r b, g' b, r b g b
+		r b g' b, r b g' b,
+		a4.\f c8\p c b a g
+		a4.\f c8\p c b a g
+		a c f c r b b b %100
+		r c c c r d d d
+		f f f f f f f f
+		e e e e e e e e
+		f f, a f r f a f
+		r g b g r e g e %105
+		f4 r r2\fermata \bar "||"
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

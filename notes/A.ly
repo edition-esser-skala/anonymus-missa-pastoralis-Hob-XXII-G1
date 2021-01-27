@@ -103,6 +103,95 @@ KyrieAltoLyrics = \lyricmode {
 	e -- lei -- son. %47 finis
 }
 
+GloriaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 2/2 \autoBeamOff \tempoGloria
+		R1*8 %8
+		\mvTr g'1\fE^\tuttiE
+		a2 h %10
+		c2. c4
+		c1
+		h2 c
+		d c4( h)
+		d2( c) %15
+		h r
+		g2. g4
+		g1
+		a
+		a %20
+		g
+		g
+		f
+		f
+		g2 g,\p %25
+		g g
+		as'\f as,\p
+		as4. as8 as2
+		a'!\f a,\p
+		a a %30
+		g'4( a g a)
+		g2 r
+		g1\f
+		g2 g
+		g2. g4 %35
+		g2 g4 g
+		f2 f
+		g g
+		g4( a) a g
+		g( a) a( g) %40
+		g2 r
+		R1*34 %75
+		\mvTr g1\fE^\tuttiE
+		a2 h
+		c2. c4
+		c2 r
+		R1*26 %105
+		R1\fermata \bar "||" %106 finis
+	}
+}
+
+GloriaAltoLyrics = \lyricmode {
+	Glo -- %9
+	_ _ %10
+	_ ri --
+	a
+	in ex --
+	cel -- sis
+	De -- %15
+	o.
+	Glo -- ri --
+	a
+	in
+	ex -- %20
+	cel --
+	sis
+	De --
+	o.
+	Et in %25
+	ter -- ra
+	pax ho --
+	mi -- ni -- bus
+	bo -- nae
+	vo -- lun -- %30
+	ta --
+	tis.
+	Lau --
+	da -- mus,
+	be -- ne -- %35
+	di -- ci -- mus,
+	ad -- o --
+	ra -- mus,
+	glo -- ri -- fi --
+	ca -- mus %40
+	te.
+
+	Glo -- %76
+	_ _
+	_ ri --
+	a. %79 finis
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
