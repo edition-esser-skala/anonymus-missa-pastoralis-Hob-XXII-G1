@@ -168,7 +168,6 @@ dolceE =    \markup \remarkE "dolce"
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 tllur = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 1) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
-fermataMarkdown = \markup { \musicglyph #'"scripts.dfermata" }
 critnote = \markup { \musicglyph #'"pedal.*" }
 trillE = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.5 [ \musicglyph #'"scripts.trill" ] }
 extraNat = \once \override Accidental.restore-first = ##t
@@ -674,6 +673,7 @@ tocLabelLong = #(define-music-function
 
 tempoKyrie = \tempoMarkup "Allegretto"
 
+ped = \markup \remark "Ped."
 
 \include "notes/ob1.ly"
 \include "notes/ob2.ly"

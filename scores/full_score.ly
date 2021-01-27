@@ -37,7 +37,7 @@
 					\set StaffGroup.instrumentName = \markup \center-column { "Corno I, II" "in G" }
 					\new Staff <<
 						% \transpose c g,
-						\KyrieCornoI \KyrieCornoII
+						\partCombine \KyrieCornoI \KyrieCornoII
 					>>
 				>>
 				\new StaffGroup <<
@@ -94,7 +94,7 @@
 				\new FiguredBass { \KyrieBassFigures }
 			>>
 			\layout { }
-			\midi { \tempo 4. = 80 }
+			\midi { \tempo 4. = 50 }
 		}
 	}
 }
