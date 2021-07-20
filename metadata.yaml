@@ -1,0 +1,17 @@
+composer: Haydn, Johann Michael
+title: Missa pastoralis
+id: MH deest, Hob XXII:G1
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 cor (CG), 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-BAR
+    shelfmark: Ba 120 Bü 74
+    type: manuscript copy
+    date: 1770–1790
+    rism: 450001358
+    url: http://www.landesarchiv-bw.de/plink/?f=3-217327
+github: haydn-m-missa-pastoralis-MH-deest
+imslp:
+notes: only Kyrie and 1st movement of Gloria
+
